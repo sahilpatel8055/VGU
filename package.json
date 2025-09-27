@@ -1,0 +1,17 @@
+{
+  "name": "online-vgu-static",
+  "version": "1.0.0",
+  "description": "Static website for Online VGU",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "serve-static": "^1.16.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
